@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.college.cbit_clubs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CBIT_CLUBS">
+        <activity
+            android:name=".cosc"
+            android:exported="false" />
+        <activity
+            android:name=".maths"
+            android:exported="false" />
+        <activity
+            android:name=".tech"
+            android:exported="false" />
+        <activity
+            android:name=".sudhee"
+            android:exported="false" />
+        <activity
+            android:name=".homepage2"
+            android:exported="false" />
+        <activity
+            android:name=".adding"
+            android:exported="false" />
+        <activity
+            android:name=".nav"
+            android:exported="false"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/Theme.CBIT_CLUBS.NoActionBar" />
+        <activity
+            android:name=".cards"
+            android:exported="false" />
+        <activity
+            android:name=".aboutuss"
+            android:exported="false" />
+        <activity android:name=".aboutnss" />
+        <activity android:name=".aboutgeethi" />
+        <activity android:name=".showActivity" />
+        <activity android:name=".reclink" />
+        <activity android:name=".open" />
+        <activity android:name=".logout" />
+        <activity android:name=".admin" />
+        <activity android:name=".account" />
+        <activity android:name=".ncc" />
+        <activity android:name=".photography" />
+        <activity android:name=".filmmaking" />
+        <activity android:name=".ewb" />
+        <activity android:name=".streetcause" />
+        <activity android:name=".parivritha" />
+        <activity android:name=".nss" />
+        <activity android:name=".vaadhya" />
+        <activity android:name=".nritrya" />
+        <activity android:name=".transcendent" />
+        <activity android:name=".toastmasters" />
+        <activity android:name=".mun" />
+        <activity android:name=".communicando" />
+        <activity android:name=".newsletter" />
+        <activity android:name=".literati" />
+        <activity android:name=".saahithi" />
+        <activity android:name=".ActivityOne" />
+        <activity android:name=".registerevent" />
+        <activity android:name=".addevent" />
+        <activity android:name=".myclubs" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".kreeda" />
+        <activity android:name=".smriti" />
+        <activity android:name=".chaaya" />
+        <activity android:name=".seva" />
+        <activity android:name=".samskruthi" />
+        <activity android:name=".homepage" />
+        <activity android:name=".signin" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

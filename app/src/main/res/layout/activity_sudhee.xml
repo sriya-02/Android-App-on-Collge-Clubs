@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sudhee">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cut_bg"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/lemon"
+            android:gravity="center"
+            android:text="SUDHEE"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+
+
+
+        <Button
+            android:id="@+id/cse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="HEADSTART"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="TECSTASY"
+            android:textColor="#E91E63"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/civil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="CIVILIZATION"
+            android:textColor="#E91E63" />
+        <Button
+            android:id="@+id/eee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="ELECTRET"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/robo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="ROBOVANZA"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/mech"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="MECHANICA"
+            android:textColor="#E91E63" />
+
+        <Button
+            android:id="@+id/ece"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="SYNAPSE"
+            android:textColor="#E91E63" />
+        <Button
+            android:id="@+id/bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="NEOZIAN"
+            android:textColor="#E91E63" />
+        <Button
+            android:id="@+id/chem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/white"
+            android:text="CHEMSPARK"
+            android:textColor="#E91E63" />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

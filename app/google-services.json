@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "911990607330",
+    "firebase_url": "https://cbit-clubs-default-rtdb.firebaseio.com",
+    "project_id": "cbit-clubs",
+    "storage_bucket": "cbit-clubs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911990607330:android:cc1e081008558094d1fdbb",
+        "android_client_info": {
+          "package_name": "com.college.cbit_clubs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911990607330-95rkndtis7bmi04g51s1rlnv9di39k0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFnDrOc-n3nQokv-gfgJAMOtnVW4oq4FY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911990607330-95rkndtis7bmi04g51s1rlnv9di39k0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

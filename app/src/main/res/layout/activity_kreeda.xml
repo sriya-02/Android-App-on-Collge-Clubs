@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".kreeda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cut_bg"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="101dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/textGrid"
+                android:layout_width="361dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="12dp"
+
+                android:fontFamily="@font/lemon"
+                android:text="CHAITANYA KREEDA"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                tools:ignore="HardcodedText" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="598dp"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/lemon"
+                android:gravity="center"
+                android:text="SPORTS CLUB"
+                android:textColor="@color/black"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imagekreeda"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/chaitanyakreeda_20210504_4" />
+
+
+            <Button
+                android:id="@+id/btnevent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:text="EVENTS"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnglink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:text="RECRUITEMENTS"
+                android:textColor="#E91E63"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_geethi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:text="ABOUT CLUB"
+                android:textColor="#E91E63" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
